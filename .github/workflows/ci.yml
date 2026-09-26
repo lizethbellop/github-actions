@@ -26,8 +26,8 @@ jobs:
 
       - name: Ejecutar pruebas
         run: npm test
-      
-build-docker:
+
+  build-docker:
     needs: test
     runs-on: ubuntu-latest
 
